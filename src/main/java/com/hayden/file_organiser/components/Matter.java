@@ -3,10 +3,19 @@ package com.hayden.file_organiser.components;
 public class Matter {
     private Long id;
     private String description;
+    private FeeEarner feeEarner;
 
-    public Matter(Long id, String description) {
-        this.id = id;
+    public Matter(String description, FeeEarner feeEarner) {
         this.description = description;
+        this.feeEarner = feeEarner;
+    }
+
+    public FeeEarner getFeeEarner() {
+        return feeEarner;
+    }
+
+    public void setFeeEarner(FeeEarner fee_earner) {
+        this.feeEarner = fee_earner;
     }
 
     public Long getId() {
