@@ -1,7 +1,6 @@
-package com.hayden.file_organiser.components;
+package com.hayden.file_organiser.models;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Client {
     private Long id;

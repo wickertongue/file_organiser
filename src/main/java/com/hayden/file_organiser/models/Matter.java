@@ -1,4 +1,4 @@
-package com.hayden.file_organiser.components;
+package com.hayden.file_organiser.models;
 
 public class Matter {
     private Long id;
